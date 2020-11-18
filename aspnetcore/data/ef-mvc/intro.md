@@ -331,7 +331,7 @@ For example, if an `EmailAddress` property is added to the `Student` class, a ne
 
 ## Conventions
 
-The amount of code written in order for the EF to to create a complete database is minimal because of the use of the conventions EF uses:
+The amount of code written in order for the EF to create a complete database is minimal because of the use of the conventions EF uses:
 
 * The names of `DbSet` properties are used as table names. For entities not referenced by a `DbSet` property, entity class names are used as table names.
 * Entity property names are used for column names.
